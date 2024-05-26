@@ -1,0 +1,397 @@
+// Fonts
+@import url("https://fonts.bunny.net/css?family=Nunito");
+
+// Variables
+@import "variables";
+
+// Bootstrap
+@import "bootstrap/scss/bootstrap";
+
+// * {
+//     background-color: #d9d9d9;
+// }
+.mb-6 {
+    margin-bottom: 6rem !important;
+}
+.red {
+    color: #c65858;
+}
+.yellow {
+    color: #dad566;
+}
+.green {
+    color: #24ac94;
+}
+.white {
+    color: #fff;
+}
+.font-size {
+    font-size: 2rem;
+}
+.navbar-registrer {
+    position: relative;
+    width: 100%;
+    height: 2.5rem;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    background-color: #dad566;
+}
+.navbar-registrer .navbar-registration-title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+    color: #000;
+    text-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+}
+
+.registration input {
+    display: block;
+    text-align: center;
+    box-shadow: 0 4px 4px 0 #dad566;
+}
+.registration select {
+    display: block;
+    text-align: center;
+    box-shadow: 0 4px 4px 0 #dad566;
+}
+.registration .registration-submit {
+    border-radius: 10px;
+    width: 100%;
+    height: 50px;
+    box-shadow: 0 4px 4px 0 #424242;
+    background: #dad566;
+}
+.navbar-enter {
+    position: relative;
+    width: 100%;
+    height: 2.5rem;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    background-color: #dad566;
+}
+.navbar-enter .navbar-enter-title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+    color: #000;
+    text-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+}
+
+.enter input {
+    display: block;
+    text-align: center;
+    box-shadow: 0 4px 4px 0 #dad566;
+}
+.enter select {
+    display: block;
+    text-align: center;
+    box-shadow: 0 4px 4px 0 #dad566;
+}
+.enter .enter-submit {
+    border-radius: 10px;
+    width: 100%;
+    height: 50px;
+    box-shadow: 0 4px 4px 0 #424242;
+    background: #dad566;
+}
+.enter .enter-submit-green {
+    width: 100%;
+    height: 50px;
+    background: #24ac94;
+    border-radius: 10px;
+}
+.location select {
+    display: block;
+    text-align: center;
+    box-shadow: 0 4px 4px 0 #dad566;
+}
+.stock {
+    border-radius: 10px;
+    width: 100%;
+    height: 50px;
+    background-color: #24ac94;
+    box-shadow: 0 4px 4px 0 #dad566;
+}
+.stock svg {
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.rent {
+    border-radius: 10px;
+    width: 100%;
+    height: 50px;
+    background-color: #c65858;
+    box-shadow: 0 4px 4px 0 #dad566;
+}
+.rent svg {
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.statistics {
+    border-radius: 10px;
+    width: 100%;
+    height: 50px;
+    background-color: #6166cd;
+    box-shadow: 0 4px 4px 0 #dad566;
+}
+.statistics svg {
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.setting-location {
+    position: relative;
+    border-radius: 10px;
+    width: 100%;
+    box-shadow: 0 4px 4px 0 #dad566;
+    background: #fff;
+}
+.setting-location .text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.3rem;
+}
+.setting-location svg {
+    padding: 0.2rem;
+    width: 15%;
+    height: 100%;
+}
+a {
+    color: #000 !important;
+    text-decoration: none;
+}
+.navbar-stock {
+    position: relative;
+    width: 100%;
+    height: 2.5rem;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    background-color: #24ac94;
+}
+.navbar-stock .navbar-stock-title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+    color: #fff;
+    text-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+}
+.setting-stock {
+    position: relative;
+    border-radius: 10px;
+    width: 100%;
+    height: 2.5rem;
+    box-shadow: 0 4px 4px 0 #24ac94;
+    background: #fff;
+}
+.setting-stock .text {
+    text-align: center;
+}
+.active {
+    background-color: #c65858;
+    color: white;
+}
+.active-navbar {
+    box-shadow: 0 -1px 10px 0 #000;
+}
+.active-green {
+    background-color: #24ac94 !important;
+    color: white;
+    height: 3.5rem !important;
+}
+.navbar-bottom {
+    overflow: hidden;
+    overflow-y: scroll;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 0;
+}
+.navbar-bottom .rent {
+    border: 1px solid #000;
+    border-radius: 5px;
+}
+.navbar-bottom .stock {
+    border: 1px solid #000;
+    border-radius: 5px;
+}
+.navbar-bottom .statistics {
+    border: 1px solid #000;
+    border-radius: 5px;
+}
+.back {
+    border: 1px solid #000;
+    border-radius: 5px;
+    background-color: #dad566;
+    width: 100%;
+    height: 50px;
+}
+.back svg {
+    color: #000;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.navbar-rent {
+    position: relative;
+    width: 100%;
+    height: 2.5rem;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    background-color: #c65858;
+}
+.navbar-rent .navbar-rent-title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+    color: #fff;
+    text-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+}
+.setting-rent {
+    position: relative;
+    border-radius: 10px;
+    width: 100%;
+    height: 2.5rem;
+    box-shadow: 0 4px 4px 0 #c65858;
+    background: #fff;
+}
+.setting-rent .text {
+    text-align: center;
+}
+.rent .back {
+    background-color: #c65858;
+}
+.navbar-statistics {
+    position: relative;
+    width: 100%;
+    height: 2.5rem;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    background-color: #6166cd;
+}
+.navbar-statistics .navbar-statistics-title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+    color: #fff;
+    text-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+}
+.setting-statistics {
+    position: relative;
+    border-radius: 10px;
+    width: 100%;
+    box-shadow: 0 4px 4px 0 #6166cd;
+    background: #fff;
+}
+.setting-statistics .text {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    color: #000;
+}
+.setting-statistics-more {
+    position: relative;
+    border-radius: 10px;
+    width: 100%;
+    height: 2.5rem;
+    box-shadow: 0 4px 4px 0 #6166cd;
+    background: #6166cd;
+}
+.setting-statistics-more .text {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    color: #fff;
+}
+.statistics .back {
+    background-color: #6166cd;
+}
+.navbar-point {
+    position: relative;
+    width: 100%;
+    height: 2.5rem;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    background-color: #dad566;
+}
+.navbar-point .navbar-point-title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+    text-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+}
+.text-center {
+    text-align: center;
+}
+.setting-point {
+    position: relative;
+    border-radius: 10px;
+    width: 100%;
+    box-shadow: 0 4px 4px 0 #dad566;
+    background: #fff;
+}
+.setting-point .text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.3rem;
+}
+.setting-point svg {
+    padding: 0.2rem;
+}
+.point-success {
+    width: 30%;
+    height: 70%;
+}
+.setting-product svg {
+    padding: 0.2rem;
+    height: 100%;
+}
+.setting-product {
+    position: relative;
+    border-radius: 10px;
+    width: 100%;
+    box-shadow: 0 4px 4px 0 #dad566;
+    background: #fff;
+}
+.setting-product .text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.3rem;
+}
